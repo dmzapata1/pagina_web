@@ -1,0 +1,84 @@
+body{
+    background-color: #d16b00;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#header{
+background-color: black;
+color: chartreuse;
+text-align: center;
+padding: 5px;
+}
+
+#main-title{
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#slogan{
+    color: white;
+}
+
+
+
+/* style.css en la carpeta static */
+#courses {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#courses ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#courses ul li:hover{
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+#content{
+    text-align: center;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#content-content{
+    width: 80%;
+    background-color: white;
+    border-radius: 10px ;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-section{
+    text-align: center;
+}
+
+
